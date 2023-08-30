@@ -1,0 +1,21 @@
+// AVATAR
+img.avatar {
+  border-radius: var(--d-border-radius);
+}
+
+.chat-message
+  .chat-message-avatar
+  .chat-user-avatar
+  .chat-user-avatar-container
+  .avatar,
+.chat-message .chat-emoji-avatar .chat-emoji-avatar-container {
+  height: 35px;
+  width: 35px;
+}
+
+body.has-sidebar-page.has-full-page-chat #main-outlet-wrapper {
+  grid-template-columns: var(--d-sidebar-width) minmax(0, 1fr);
+  #main-outlet {
+    max-width: unset;
+  }
+}

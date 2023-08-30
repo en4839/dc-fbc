@@ -1,0 +1,32 @@
+{
+  "name": "FBC",
+  "component": false,
+  "license_url": null,
+  "about_url": null,
+  "authors": null,
+  "theme_version": null,
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {
+        "outfit": "assets/Outfit-Variable.woff2"
+   },
+  "color_schemes": {
+    "FBC Color Palette": {
+      "primary": "ffffff",
+      "secondary": "111111",
+      "tertiary": "a594fd",
+      "quaternary": "a594fd",
+      "header_background": "000000",
+      "header_primary": "dddddd",
+      "highlight": "a594fd",
+      "danger": "e45735",
+      "success": "1ca551",
+      "love": "a594fd",
+      "selected": "151515",
+      "hover": "232323"
+    }
+  },
+  "modifiers": {
+  },
+  "learn_more": "https://meta.discourse.org/t/beginners-guide-to-using-discourse-themes/91966"
+}
