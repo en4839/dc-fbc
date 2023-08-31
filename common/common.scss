@@ -10,8 +10,8 @@
   src: url($outfit) format('woff2')
 }
 
-body {
-  font-family: Outfit;
+* {
+  font-family: Outfit!important;
 }
 
 .sidebar-theme-toggle__wrapper .sidebar-theme-toggle-dropdown.select-kit.is-expanded .select-kit-body {
