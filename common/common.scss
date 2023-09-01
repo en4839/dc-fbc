@@ -15,7 +15,27 @@
 }
 html {
   font-size: 16px;
-  /* default is 15px */
+
+  /* default 15px  */
+  &.text-size-smallest {
+    font-size: 14px;
+    /* default 13px  */
+  }
+
+  &.text-size-smaller {
+    font-size: 15px;
+    /* default 14px  */
+  }
+
+  &.text-size-larger {
+    font-size: 18px;
+    /* default 17px  */
+  }
+
+  &.text-size-largest {
+    font-size: 20px;
+    /* default 19px  */
+  }
 }
 b,strong {
   font-weight: 600;
